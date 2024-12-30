@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.flex {
+    display: flex;
+}
+.navBar {
+    
+    background-color:rgb(255, 254, 246);
+}
+.h-15vh{
+    height:15vh;
+}
+.h-50vh{
+    height:50vh;
+}
+.h-65vh{
+    min-height:65vh;
+}
+.navBarList , a {
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    transition: 0.1s ; 
+}
+.navBarList , a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    color:rgb(112, 112, 112);
+}
+.navBarList{
+    justify-content: space-around;
+    align-items:center;
+    width:100%;
+    
+}
+.navBarBrand{
+    width:50%;
+    justify-content: start;
+    align-items:center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+
+}
+.list{
+    width:50%;
+    font-size:1rem;
+    flex-wrap:nowrap;
+
+}
+.mainInfo{
+    background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-color: rgb(212, 212, 212);
+}
+.productSection {
+    background-color: #A8C0FF;
+    width:100%;
+    
+}
+.productDiv{
+
+    width:1024px;
+}
+.productTitle{
+    font-size:2rem;
+    justify-content: center;
+    align-items:center;
+    margin: 20px 0px;
+
+}
+.mainTitle{
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    
+}
+.title{
+    font-size:4rem;
+    transition: 0.6s ease; 
+}
+.title:hover{
+    color:white;
+    cursor:pointer;
+}
+.button{
+    font-size: larger;
+    margin-top: 30px;
+    padding:5px;
+    width:140px;
+    border-radius: 50px;
+    display:block;
+    border: 0.5px solid white;
+    color:white;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    transition: 0.6s ease; 
+    
+}
+.button:hover{
+    cursor:pointer;
+    background:transparent;
+    color:rgb(255, 255, 255);
+    border: 0.5px solid rgb(255, 89, 89);
+
+    
+}
+.fontBricolage {
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.fontKanit {
+    font-family: 'Kanit', sans-serif;
+}
+.cardShadow{
+    transition: 0.6s ease; 
+}
+.cardShadow:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.cardsDiv{
+    justify-content: space-between;
+}
+.button2{
+    font-size: larger;
+    padding:5px;
+    border-radius: 50px;
+    border:none;
+    color:rgb(22, 22, 22);
+    background-color:white;
+    justify-content:center;
+    align-items:center;
+   
+}
+.button2Div{
+    justify-content:center;
+    align-items:center;
+    margin-top:35px;
+    width:100%;
+}
